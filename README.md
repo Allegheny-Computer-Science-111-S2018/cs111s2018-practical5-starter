@@ -116,30 +116,6 @@ purpose of the `MadLibs` program is to display a silly story using words and
 numbers &mdash; so please do your best to display a story that is appropriate
 for a classroom setting and in the spirit of the MadLibs game.
 
-## Updates
-
-If the course instructor updates the provided material for this assignment and
-you would like to receive these updates, then you can type this command in the
-main directory for this assignment:
-
-```
-./gatorgrader.sh --update git@github.com:Allegheny-Computer-Science-111-F2017/cs111-F2017-practical4-starter.git
-```
-
-You should only need to type this command once; typing the command additional
-times may yield an error message but will not negatively influence the state of
-your repository. Now, you are ready to download the updates provided by the
-course instructor by typing:
-
-```
-./gatorgrader.sh --download
-```
-
-This second command can be run whenever the course instructor needs to provide
-you with new source code for this assignment. However, please note that, if you
-have edited the files that the course instructor updated, running the previous
-command may lead to Git merge conflicts. If this happens, you may need to
-manually resolve them with the help of the instructor or a teaching assistant.
 
 ## Travis
 
